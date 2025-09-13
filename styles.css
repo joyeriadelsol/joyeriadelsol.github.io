@@ -147,6 +147,30 @@ body {
     font-weight: 500;
 }
 
+.social-links-top {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, var(--accent-red), #ffd700);
+    border-radius: 50%;
+    color: var(--text-light);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+}
+
 /* Hero Section */
 .hero {
     height: 100vh;
@@ -168,7 +192,7 @@ body {
 .hero h1 {
     font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin: 0.7rem 0;
     background: linear-gradient(135deg, var(--accent-red), #ffd700);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -218,7 +242,7 @@ body {
 }
 
 .hero-logo {
-    margin: 2rem 0;
+    margin: 100px 0 2rem 0;
 }
 
 .hero-logo-image {
@@ -232,8 +256,15 @@ body {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
 
+/* Boots Section */
+.boots-section {
+    background: var(--primary-dark);
+    padding: 30px 0;
+    text-align: center;
+}
+
 .hero-boots {
-    margin: 1.5rem 0 100px 0;
+    margin: 0;
 }
 
 .hero-boots-image {
@@ -570,6 +601,10 @@ body {
     }
     
     .language-toggle {
+        display: none;
+    }
+    
+    .social-links-top {
         display: none;
     }
 

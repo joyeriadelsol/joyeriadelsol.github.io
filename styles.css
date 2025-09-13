@@ -62,9 +62,12 @@ body {
 }
 
 .logo-image {
-    height: 40px;
-    width: auto;
+    height: 64px;
+    width: 64px;
     object-fit: contain;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: white;
 }
 
 .logo-boots {
@@ -234,8 +237,8 @@ body {
 }
 
 .hero-boots-image {
-    width: 144px;
-    height: 144px;
+    width: 259px;
+    height: 259px;
     object-fit: contain;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
